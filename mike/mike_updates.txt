@@ -1,0 +1,22 @@
+Weekly Check-In: Mike Cho
+
+Dry Lab Related:
+- Algae Biotech Coursera Weeks 1-2 (refer to algaebiotech.txt)
+- ML in DevOps Coursera Weeks 1-2
+MATLAB: Symbiology
+- Pk/PD script to practice modelling (from random noise, refer to symbioDemo.m)
+
+
+Unable to push? Get rid of cached data on the problem folder by following these steps.
+  git rm —cached ProblemFolder
+  rm -rf ProblemFolder/.git
+  git add .
+  git commit -m ‘message’
+  git push
+
+rm means removed.
+-rf roughly translates to forceful recursion.
+Sometimes your computer might protect you from mass deleting your files in which case
+you can manually override permissions by using the keyword 'sudo' like so:
+
+sudo rm -rf ProblemFolder/.git
