@@ -1,0 +1,5 @@
+Weekly Check-In: Tanvir Dhanoa
+
+March 31st, 2024
+- Set up GIT
+- Dry Lab Analysis (AssaCin UT Austin)
