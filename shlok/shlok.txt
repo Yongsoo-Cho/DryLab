@@ -1,1 +1,6 @@
+Weekly Updates: Shlok  
 
+Weeks 1-2: 
+(1) Make GitHub Account + Set Up Shared Git Station
+(2) Analysis of a previous iGEM project (https://2019.igem.org/Team:Toronto/drylab) 
+(3) Looking into MatLab SymBiology 
