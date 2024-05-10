@@ -3,3 +3,7 @@ Weekly Check-In: Tanvir Dhanoa
 March 31st, 2024
 - Set up GIT
 - Dry Lab Analysis (AssaCin UT Austin)
+
+May 10th, 2024
+- Completed SBOL research
+- Started looking into bioreactor research
