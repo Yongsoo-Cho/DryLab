@@ -1,0 +1,3 @@
+- Added literature to ML doc
+- Working on toxicity predictor for AMP (chloroplast specific AMP prediction) using random forest classifier
+- 3 sponsorship emails
