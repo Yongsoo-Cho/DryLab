@@ -37,6 +37,9 @@ if __name__ == "__main__":
     targets = dimer_labels[:len(features)]  # Ensure the target length matches the feature length
 
     input_dim = features.shape[1]
+
+    # epochs 5,10,15. 
+    # characterizing accurcy ROC, AUC, etc.
     model = train_model(features, targets, input_dim, num_epochs=20, batch_size=16, learning_rate=0.01)
 
 #where would you want to be in one week?
