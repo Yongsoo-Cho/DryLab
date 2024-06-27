@@ -25,18 +25,10 @@ class AMPDataSet(Dataset):
         if torch.is_tensor(idx):
             idx = idx.tolist()
 
-        sample = {'data': self.data[idx], 'target': self.targets[idx]}
+        sample = {'data': torch.tensor(self.data[idx], dtype=torch.float32),
+                  'target': torch.tensor(self.targets[idx], dtype=torch.float32)}
 
         if self.transform:
             sample = self.transform(sample)
 
         return sample
-
-
-
-import numpy as np
-# Dummy Data
-data = np.random.rand(100, 10)  # 100 samples, 10 features each (features yet to be defined but pertain to biophysical properties)
-targets = np.random.randint(0, 2, size=(100,)) #True, False, Null
-
-dataset = AMPDataSet(data, targets)
