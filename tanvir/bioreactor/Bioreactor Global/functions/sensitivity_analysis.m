@@ -120,3 +120,7 @@ end
 function nutrientFactor = f_nutrients_helper(~, S, K_s)
     nutrientFactor = S / (K_s + S);
 end
+
+function dXdt = ode_function(~, X, u, D, Xmax)
+    dXdt = (u - D) * X * (1 - X / Xmax);
+end
